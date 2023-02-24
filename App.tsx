@@ -27,6 +27,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import {Home} from './src/screens/Home';
+import {Auth} from './src/screens/Auth';
 
 const Section: React.FC<
   PropsWithChildren<{
@@ -67,7 +68,7 @@ const App = () => {
 
   return (
     <View>
-      <Home />
+      <Auth />
     </View>
   );
 };
